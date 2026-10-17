@@ -1,0 +1,18 @@
+{
+  "name": "restful-task-manager-api",
+  "version": "1.0.0",
+  "description": "A RESTful Task Manager API built with Node.js and Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["nodejs", "express", "rest-api", "task-manager"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
